@@ -1,5 +1,19 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "SearchBar": "//*[@data-testid='input']",
+  "SearchBarFirstSuggestion":"//*[@data-testid='suggestion']",
+  "ShowCommercialPropertiesOnlyBtn":"//*[@for='commercial-checkbox-bottom']",
+  "PropertyTypeDDListPage":"//*[contains(@data-testid,'filters-form-dropdown-property-type')]",
+  "PropertyTypeDDChoiceListPage":"//*[@class='styles-module_dropdown-content__item__thioe' and .='PROPERTIEHERE']",
+  "SearchBarSelectedItem":"//*[@class='multi-selection-autocomplete__chip-label']",
+  "PropertyTypeDDHomePage":"//*[contains(@class,' data-filter-type-filter[propertyTypeId]')]",
+  "PropertyTypeDDChoiceHomePage":"//*[@class='dropdown-list__item-content dropdown-list__item-button' and (text()='PROPERTIEHERE')]",
+  "SearchButton":"//button[contains(@class,'filter-form-search-button')]",
+  "FindButton":"//*[@data-testid='filters-form-btn-find']",
+  "PriceButton":"//*[contains(@class,'styles-module_dropdown-trigger')]//*[text()='Price']",
+  "MaxPriceTextBox":"//*[@data-testid='popover']//*[@aria-label='Max. Price (BHD)']",
+  "SearchResoultFirstItem":"(//*[@role='listitem'])[1]",
+  "AvailableFromText":"//*[.='Available from:']/..//*[@class='property-facts__value']"
+
+
+
 }
